@@ -8,6 +8,17 @@ namespace structs
     {
 
 
+      int? randNum = null;
+
+      if (randNum == null)
+      {
+        System.Console.WriteLine("randNum is null");
+      }
+      if (!randNum.HasValue)
+      {
+        System.Console.WriteLine("randNum is null");
+      }
+
       Rectangle rect1;
       rect1.length = 200;
       rect1.width = 40;
