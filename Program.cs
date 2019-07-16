@@ -24,9 +24,15 @@ namespace structs
       };
 
       Animal tiger = new Animal("tiger", "Roarr");
-
+      tiger.MakeSound();
 
       System.Console.WriteLine("Number of animals: {0}", Animal.GetNumOfAnimals());
+
+      System.Console.WriteLine("Area of rectangle : {0}",
+      ShapeMath.GetArea("rectangle", 5, 6));
+
+
+
     }
 
     struct Rectangle
